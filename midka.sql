@@ -42,7 +42,7 @@ CREATE TABLE customer_ (
   VALUES (1, 10, 'John Doe', 'Book 1');
   
   INSERT INTO book_ (book_id, price, author, title)
-VALUES (2, 15, 'Jane Smith', 'Book 2');
+  VALUES (2, 15, 'Jane Smith', 'Book 2');
   
   CREATE TABLE order_item_ (
   item_id NUMBER(5),
@@ -56,10 +56,10 @@ VALUES (2, 15, 'Jane Smith', 'Book 2');
   );
   
   INSERT INTO category_ (category_id, category_name)
-VALUES (1, 'Category 1');
+  VALUES (1, 'Category 1');
 
-INSERT INTO category_ (category_id, category_name)
-VALUES (2, 'Category 2');
+  INSERT INTO category_ (category_id, category_name)
+  VALUES (2, 'Category 2');
 
 DECLARE
   num_rows NUMBER;
